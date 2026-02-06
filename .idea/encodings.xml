@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlatools/org.lamport.tlatools.api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlatools/org.lamport.tlatools.api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlatools/org.lamport.tlatools.consumer.distributed/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlatools/org.lamport.tlatools.consumer.distributed/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlatools/org.lamport.tlatools.feature/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlatools/org.lamport.tlatools.feature/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlatools/org.lamport.tlatools.impl.distributed/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlatools/org.lamport.tlatools.impl.distributed/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlatools/org.lamport.tlatools/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlatools/org.lamport.tlatools/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.doc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.doc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.editor.basic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.editor.basic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.branding/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.branding/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.editor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.editor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.help/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.help/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.prover/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.prover/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.standalone/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.standalone/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.tla2tex/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.tla2tex/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.tlc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.feature.tlc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.p2repository/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.p2repository/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.product.product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.product.product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.product.standalone/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.product.standalone/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.tool.prover/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.tool.prover/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.tool.tla2tex/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.tool.tla2tex/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.tool.tlc.test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.tool.tlc.test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.tool.tlc.ui.test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.tool.tlc.ui.test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.tool.tlc.ui/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.tool.tlc.ui/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.tool.tlc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox.tool.tlc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolbox/org.lamport.tla.toolbox/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="org.lamport.tla.toolbox.feature.tlc" />
+        <module name="org.lamport.tla.toolbox.feature.branding" />
+        <module name="org.lamport.tla.toolbox.feature.tla2tex" />
+        <module name="org.lamport.tla.toolbox.tool.tlc.ui.test" />
+        <module name="org.lamport.tla.toolbox.tool.tlc.test" />
+        <module name="org.lamport.tla.toolbox.feature.help" />
+        <module name="org.lamport.tla.toolbox.tool.tlc.ui" />
+        <module name="org.lamport.tla.toolbox.feature.prover" />
+        <module name="org.lamport.tla.toolbox.tool.tlc" />
+        <module name="org.lamport.tla.toolbox.feature.base" />
+        <module name="org.lamport.tla.toolbox.tool.tla2tex" />
+        <module name="org.lamport.tla.toolbox.test" />
+        <module name="org.lamport.tlatools.consumer.distributed" />
+        <module name="org.lamport.tlatools.api" />
+        <module name="org.lamport.tlatools.feature" />
+        <module name="org.lamport.tla.toolbox.feature.standalone" />
+        <module name="org.lamport.tla.toolbox.product.product" />
+        <module name="org.lamport.tla.toolbox.tool.prover" />
+        <module name="org.lamport.tla.toolbox" />
+        <module name="org.lamport.tlatools" />
+        <module name="org.lamport.tla.toolbox.doc" />
+        <module name="org.lamport.tla.toolbox.feature.editor" />
+        <module name="org.lamport.tla.toolbox.product.standalone" />
+        <module name="org.lamport.tlatools.impl.distributed" />
+        <module name="org.lamport.tla.toolbox.editor.basic" />
+        <module name="org.lamport.tla.toolbox.p2repository" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
