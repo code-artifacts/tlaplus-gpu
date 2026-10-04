@@ -1,0 +1,26 @@
+{
+    "name": "Java",
+    "build": {
+       "dockerfile": "Dockerfile",
+       "context": ".."
+    },
+    // Comment out the "features" section (ChatGPT suggestion)
+    // "features": {
+    //     "ghcr.io/devcontainers/features/java:1": {
+    //        "version": "17",
+    //        "installMaven": "true",
+    //        "installGradle": "false"
+    //     },
+  //       "ghcr.io/devcontainers/features/git:1": {}
+    // },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "vscjava.vscode-maven"
+            ]
+        }
+    },
+//  "postCreateCommand": "ant -version && mvn -version",
+    "postCreateCommand": "ant -version && mvn -version && git config --global --add safe.directory ${containerWorkspaceFolder}",
+}

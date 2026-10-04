@@ -1,0 +1,513 @@
+warning: CRLF will be replaced by LF in tlatools/org.lamport.tlatools/test-model/CodePlexBug08/checkpoint/nodes_0.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in tlatools/org.lamport.tlatools/test-model/CodePlexBug08/checkpoint/ptrs_0.
+The file will have its original line endings in your working directory.
+ .DS_Store                                                                                         |   Bin [31m0[m -> [32m10244[m bytes
+ .github/.DS_Store                                                                                 |   Bin [31m0[m -> [32m6148[m bytes
+ .idea/workspace.xml                                                                               |   115 [32m+[m
+ APPLY_PATCH_HEALTHCHECK                                                                           |     1 [32m+[m
+ Debug05SimTest.bin                                                                                |   Bin [31m0[m -> [32m143[m bytes
+ Debug05SimTest.json                                                                               |     1 [32m+[m
+ apache-ant-1.10.14/bin/ant                                                                        |   377 [32m+[m
+ apache-ant-1.10.14/bin/ant.bat                                                                    |   233 [32m+[m
+ apache-ant-1.10.14/bin/ant.cmd                                                                    |    93 [32m+[m
+ apache-ant-1.10.14/bin/antRun                                                                     |    24 [32m+[m
+ apache-ant-1.10.14/bin/antRun.bat                                                                 |    49 [32m+[m
+ apache-ant-1.10.14/bin/antRun.pl                                                                  |    61 [32m+[m
+ apache-ant-1.10.14/bin/antenv.cmd                                                                 |    98 [32m+[m
+ apache-ant-1.10.14/bin/complete-ant-cmd.pl                                                        |   114 [32m+[m
+ apache-ant-1.10.14/bin/envset.cmd                                                                 |   131 [32m+[m
+ apache-ant-1.10.14/bin/lcp.bat                                                                    |    30 [32m+[m
+ apache-ant-1.10.14/bin/runant.pl                                                                  |   132 [32m+[m
+ apache-ant-1.10.14/bin/runant.py                                                                  |   106 [32m+[m
+ apache-ant-1.10.14/bin/runrc.cmd                                                                  |    60 [32m+[m
+ apache-ant-1.10.14/etc/ant-bootstrap.jar                                                          |   Bin [31m0[m -> [32m22810[m bytes
+ apache-ant-1.10.14/lib/ant-antlr.jar                                                              |   Bin [31m0[m -> [32m12271[m bytes
+ apache-ant-1.10.14/lib/ant-apache-bcel.jar                                                        |   Bin [31m0[m -> [32m15617[m bytes
+ apache-ant-1.10.14/lib/ant-apache-bsf.jar                                                         |   Bin [31m0[m -> [32m10149[m bytes
+ apache-ant-1.10.14/lib/ant-apache-log4j.jar                                                       |   Bin [31m0[m -> [32m8768[m bytes
+ apache-ant-1.10.14/lib/ant-apache-oro.jar                                                         |   Bin [31m0[m -> [32m10052[m bytes
+ apache-ant-1.10.14/lib/ant-apache-regexp.jar                                                      |   Bin [31m0[m -> [32m10026[m bytes
+ apache-ant-1.10.14/lib/ant-apache-resolver.jar                                                    |   Bin [31m0[m -> [32m9916[m bytes
+ apache-ant-1.10.14/lib/ant-apache-xalan2.jar                                                      |   Bin [31m0[m -> [32m8419[m bytes
+ apache-ant-1.10.14/lib/ant-commons-logging.jar                                                    |   Bin [31m0[m -> [32m10180[m bytes
+ apache-ant-1.10.14/lib/ant-commons-net.jar                                                        |   Bin [31m0[m -> [32m91005[m bytes
+ apache-ant-1.10.14/lib/ant-imageio.jar                                                            |   Bin [31m0[m -> [32m31587[m bytes
+ apache-ant-1.10.14/lib/ant-jai.jar                                                                |   Bin [31m0[m -> [32m29588[m bytes
+ apache-ant-1.10.14/lib/ant-jakartamail.jar                                                        |   Bin [31m0[m -> [32m14691[m bytes
+ apache-ant-1.10.14/lib/ant-javamail.jar                                                           |   Bin [31m0[m -> [32m14670[m bytes
+ apache-ant-1.10.14/lib/ant-jdepend.jar                                                            |   Bin [31m0[m -> [32m14995[m bytes
+ apache-ant-1.10.14/lib/ant-jmf.jar                                                                |   Bin [31m0[m -> [32m12991[m bytes
+ apache-ant-1.10.14/lib/ant-jsch.jar                                                               |   Bin [31m0[m -> [32m55149[m bytes
+ apache-ant-1.10.14/lib/ant-junit.jar                                                              |   Bin [31m0[m -> [32m141302[m bytes
+ apache-ant-1.10.14/lib/ant-junit4.jar                                                             |   Bin [31m0[m -> [32m13656[m bytes
+ apache-ant-1.10.14/lib/ant-junitlauncher.jar                                                      |   Bin [31m0[m -> [32m96443[m bytes
+ apache-ant-1.10.14/lib/ant-launcher.jar                                                           |   Bin [31m0[m -> [32m18871[m bytes
+ apache-ant-1.10.14/lib/ant-netrexx.jar                                                            |   Bin [31m0[m -> [32m17324[m bytes
+ apache-ant-1.10.14/lib/ant-swing.jar                                                              |   Bin [31m0[m -> [32m13931[m bytes
+ apache-ant-1.10.14/lib/ant-testutil.jar                                                           |   Bin [31m0[m -> [32m28794[m bytes
+ apache-ant-1.10.14/lib/ant-xz.jar                                                                 |   Bin [31m0[m -> [32m11351[m bytes
+ apache-ant-1.10.14/lib/ant.jar                                                                    |   Bin [31m0[m -> [32m2303167[m bytes
+ experiment/middle/Byzantine/bcastFolklore.cfg                                                     |     7 [32m+[m
+ experiment/middle/Byzantine/bcastFolklore.tla                                                     |   152 [32m+[m
+ experiment/middle/Elevator/Elevator.tla                                                           |   237 [32m+[m
+ experiment/middle/Elevator/ElevatorLivenessLarge.cfg                                              |    14 [32m+[m
+ experiment/middle/Elevator/ElevatorLivenessMedium.cfg                                             |    14 [32m+[m
+ experiment/middle/Nano/MCNano.tla                                                                 |   121 [32m+[m
+ experiment/middle/Nano/MCNanoLarge.cfg                                                            |    23 [32m+[m
+ experiment/middle/Nano/MCNanoMedium.cfg                                                           |    23 [32m+[m
+ experiment/middle/Nano/Nano.tla                                                                   |   490 [32m+[m
+ experiment/middle/Slush /Slush.tla                                                                |   433 [32m+[m
+ experiment/middle/Slush /SlushLarge.cfg                                                           |    17 [32m+[m
+ experiment/middle/Slush /SlushMedium.cfg                                                          |    17 [32m+[m
+ experiment/simple/CoffeeCan/CoffeeCan.tla                                                         |   122 [32m+[m
+ experiment/simple/CoffeeCan/CoffeeCan3000Beans.cfg                                                |    14 [32m+[m
+ experiment/simple/Dijkstra/DijkstraMutex.tla                                                      |   330 [32m+[m
+ experiment/simple/Dijkstra/MC.cfg                                                                 |    20 [32m+[m
+ experiment/simple/Dijkstra/MC.tla                                                                 |    28 [32m+[m
+ experiment/simple/KVStore/ClientCentric.tla                                                       |   185 [32m+[m
+ experiment/simple/KVStore/Folds.tla                                                               |    41 [32m+[m
+ experiment/simple/KVStore/Functions.tla                                                           |   177 [32m+[m
+ experiment/simple/KVStore/KVsnap.tla                                                              |   167 [32m+[m
+ experiment/simple/KVStore/MCKVsnap.cfg                                                            |    19 [32m+[m
+ experiment/simple/KVStore/MCKVsnap.tla                                                            |     8 [32m+[m
+ experiment/simple/KVStore/Util.tla                                                                |    45 [32m+[m
+ experiment/simple/MultiPaxos-SMR/MultiPaxos.tla                                                   |   585 [32m+[m
+ experiment/simple/MultiPaxos-SMR/MultiPaxos_MC.cfg                                                |    15 [32m+[m
+ experiment/simple/MultiPaxos-SMR/MultiPaxos_MC.tla                                                |    75 [32m+[m
+ general/.DS_Store                                                                                 |   Bin [31m0[m -> [32m8196[m bytes
+ gpu_generic_tests/GGpuActionIfSmall.cfg                                                           |     3 [32m+[m
+ gpu_generic_tests/GGpuActionIfSmall.tla                                                           |    21 [32m+[m
+ gpu_generic_tests/GGpuActionWrappersSmall.cfg                                                     |     3 [32m+[m
+ gpu_generic_tests/GGpuActionWrappersSmall.tla                                                     |    31 [32m+[m
+ gpu_generic_tests/GGpuCardinalityConcatSmall.cfg                                                  |     2 [32m+[m
+ gpu_generic_tests/GGpuCardinalityConcatSmall.tla                                                  |    15 [32m+[m
+ gpu_generic_tests/GGpuDivisionModuloSmall.cfg                                                     |     3 [32m+[m
+ gpu_generic_tests/GGpuDivisionModuloSmall.tla                                                     |    21 [32m+[m
+ gpu_generic_tests/GGpuDynamicCollectionsSmall.cfg                                                 |     3 [32m+[m
+ gpu_generic_tests/GGpuDynamicCollectionsSmall.tla                                                 |    39 [32m+[m
+ gpu_generic_tests/GGpuDynamicCollectionsSmall_TTrace_1790743524.bin                               |   Bin [31m0[m -> [32m126[m bytes
+ gpu_generic_tests/GGpuGuardedDynamicExistsSmall.cfg                                               |     3 [32m+[m
+ gpu_generic_tests/GGpuGuardedDynamicExistsSmall.tla                                               |    35 [32m+[m
+ gpu_generic_tests/GGpuInvariantViolationSmall.cfg                                                 |     3 [32m+[m
+ gpu_generic_tests/GGpuInvariantViolationSmall.tla                                                 |    13 [32m+[m
+ gpu_generic_tests/GGpuMultiInitialInvariantViolationSmall.cfg                                     |     3 [32m+[m
+ gpu_generic_tests/GGpuMultiInitialInvariantViolationSmall.tla                                     |    12 [32m+[m
+ gpu_generic_tests/GGpuRelationsSmall.cfg                                                          |     3 [32m+[m
+ gpu_generic_tests/GGpuRelationsSmall.tla                                                          |    45 [32m+[m
+ gpu_generic_tests/GGpuRelationsSmall_TTrace_1790743544.bin                                        |   Bin [31m0[m -> [32m78[m bytes
+ gpu_generic_tests/GGpuTupleExistsSmall.cfg                                                        |     3 [32m+[m
+ gpu_generic_tests/GGpuTupleExistsSmall.tla                                                        |    21 [32m+[m
+ gpu_generic_tests/GGpuTwoPhaseExistsSmall_TTrace_1788516368.bin                                   |   Bin [31m0[m -> [32m201[m bytes
+ gpu_generic_tests/GGpuTwoPhaseExistsSmall_TTrace_1788516368.tla                                   |   136 [32m+[m
+ gpu_support_probes/CoffeeCanNext.cfg                                                              |     3 [32m+[m
+ gpu_support_probes/DijkstraNext.cfg                                                               |    10 [32m+[m
+ gpu_support_probes/KVsnapNext.cfg                                                                 |     6 [32m+[m
+ gpu_support_probes/MultiPaxosNext.cfg                                                             |     7 [32m+[m
+ gpu_support_probes/tlc2/tool/gpu/DumpMCPaxosInvariantIR.java                                      |    88 [32m+[m
+ hs_err_pid9279.log                                                                                |   336 [32m+[m
+ libtlc_gpu.so                                                                                     |   Bin [31m0[m -> [32m2855592[m bytes
+ libtlc_gpu.so.before_709f7d9                                                                      |   Bin [31m0[m -> [32m2341704[m bytes
+ libtlc_gpu.so.before_adaptive_index_fix                                                           |   Bin [31m0[m -> [32m2751280[m bytes
+ libtlc_gpu.so.before_memory_preflight                                                             |   Bin [31m0[m -> [32m2738408[m bytes
+ states/26-05-29-12-15-44.815/TwoPhase-0.st                                                        |     0
+ states/26-05-29-12-15-44.815/TwoPhase.st                                                          |     0
+ states/26-05-29-12-15-44.815/TwoPhase_0.fp                                                        |     0
+ states/26-05-29-12-15-44.815/TwoPhase_1.fp                                                        |     0
+ states/26-06-01-19-03-09.998/TwoPhase-0.st                                                        |     0
+ states/26-06-01-19-03-09.998/TwoPhase.st                                                          |     0
+ states/26-06-01-19-03-09.998/TwoPhase_0.fp                                                        |     0
+ states/26-06-01-19-03-09.998/TwoPhase_1.fp                                                        |     0
+ states/26-06-02-09-40-26.972/TwoPhase-0.st                                                        |     0
+ states/26-06-02-09-40-26.972/TwoPhase.st                                                          |     0
+ states/26-06-02-09-40-26.972/TwoPhase_0.fp                                                        |     0
+ states/26-06-02-09-40-26.972/TwoPhase_1.fp                                                        |     0
+ states/26-06-02-09-40-36.384/TwoPhase-0.st                                                        |     0
+ states/26-06-02-09-40-36.384/TwoPhase.st                                                          |     0
+ states/26-06-02-09-40-36.384/TwoPhase_0.fp                                                        |     0
+ states/26-06-02-09-40-36.384/TwoPhase_1.fp                                                        |     0
+ states/26-06-02-09-47-11.162/TwoPhase-0.st                                                        |     0
+ states/26-06-02-09-47-11.162/TwoPhase.st                                                          |     0
+ states/26-06-02-09-47-11.162/TwoPhase_0.fp                                                        |     0
+ states/26-06-02-09-47-11.162/TwoPhase_1.fp                                                        |     0
+ states/26-06-03-14-04-51.132/200                                                                  |   Bin [31m0[m -> [32m2032797[m bytes
+ states/26-06-03-14-04-51.132/201                                                                  |   Bin [31m0[m -> [32m1888406[m bytes
+ states/26-06-03-14-04-51.132/202                                                                  |   Bin [31m0[m -> [32m1841304[m bytes
+ states/26-06-03-14-04-51.132/203                                                                  |   Bin [31m0[m -> [32m1986671[m bytes
+ states/26-06-03-14-04-51.132/204                                                                  |   Bin [31m0[m -> [32m1820472[m bytes
+ states/26-06-03-14-04-51.132/205                                                                  |   Bin [31m0[m -> [32m1968160[m bytes
+ states/26-06-03-14-04-51.132/206                                                                  |   Bin [31m0[m -> [32m1884801[m bytes
+ states/26-06-03-14-04-51.132/207                                                                  |   Bin [31m0[m -> [32m1814242[m bytes
+ states/26-06-03-14-04-51.132/208                                                                  |   Bin [31m0[m -> [32m1662601[m bytes
+ states/26-06-03-14-04-51.132/209                                                                  |   Bin [31m0[m -> [32m1592562[m bytes
+ states/26-06-03-14-04-51.132/210                                                                  |   Bin [31m0[m -> [32m1745850[m bytes
+ states/26-06-03-14-04-51.132/211                                                                  |   Bin [31m0[m -> [32m1760909[m bytes
+ states/26-06-03-14-04-51.132/212                                                                  |   Bin [31m0[m -> [32m1618288[m bytes
+ states/26-06-03-14-04-51.132/213                                                                  |   Bin [31m0[m -> [32m1676448[m bytes
+ states/26-06-03-14-04-51.132/214                                                                  |   Bin [31m0[m -> [32m1790833[m bytes
+ states/26-06-03-14-04-51.132/215                                                                  |   Bin [31m0[m -> [32m1595839[m bytes
+ states/26-06-03-14-04-51.132/216                                                                  |   Bin [31m0[m -> [32m1780883[m bytes
+ states/26-06-03-14-04-51.132/217                                                                  |   Bin [31m0[m -> [32m1677600[m bytes
+ states/26-06-03-14-04-51.132/218                                                                  |   Bin [31m0[m -> [32m1730803[m bytes
+ states/26-06-03-14-04-51.132/219                                                                  |   Bin [31m0[m -> [32m1711949[m bytes
+ states/26-06-03-14-04-51.132/220                                                                  |   Bin [31m0[m -> [32m1720557[m bytes
+ states/26-06-03-14-04-51.132/221                                                                  |   Bin [31m0[m -> [32m1604587[m bytes
+ states/26-06-03-14-04-51.132/222                                                                  |   Bin [31m0[m -> [32m1699800[m bytes
+ states/26-06-03-14-04-51.132/223                                                                  |   Bin [31m0[m -> [32m1762625[m bytes
+ states/26-06-03-14-04-51.132/224                                                                  |   Bin [31m0[m -> [32m1763601[m bytes
+ states/26-06-03-14-04-51.132/225                                                                  |   Bin [31m0[m -> [32m2043112[m bytes
+ states/26-06-03-14-04-51.132/226                                                                  |   Bin [31m0[m -> [32m1948001[m bytes
+ states/26-06-03-14-04-51.132/227                                                                  |   Bin [31m0[m -> [32m2050536[m bytes
+ states/26-06-03-14-04-51.132/228                                                                  |   Bin [31m0[m -> [32m2011038[m bytes
+ states/26-06-03-14-04-51.132/229                                                                  |   Bin [31m0[m -> [32m1844210[m bytes
+ states/26-06-03-14-04-51.132/230                                                                  |   Bin [31m0[m -> [32m1761716[m bytes
+ states/26-06-03-14-04-51.132/231                                                                  |   Bin [31m0[m -> [32m1796079[m bytes
+ states/26-06-03-14-04-51.132/232                                                                  |   Bin [31m0[m -> [32m1995751[m bytes
+ states/26-06-03-14-04-51.132/233                                                                  |   Bin [31m0[m -> [32m2054125[m bytes
+ states/26-06-03-14-04-51.132/234                                                                  |   Bin [31m0[m -> [32m1940880[m bytes
+ states/26-06-03-14-04-51.132/235                                                                  |   Bin [31m0[m -> [32m1780624[m bytes
+ states/26-06-03-14-04-51.132/236                                                                  |   Bin [31m0[m -> [32m1923519[m bytes
+ states/26-06-03-14-04-51.132/237                                                                  |   Bin [31m0[m -> [32m1998642[m bytes
+ states/26-06-03-14-04-51.132/238                                                                  |   Bin [31m0[m -> [32m1908098[m bytes
+ states/26-06-03-14-04-51.132/239                                                                  |   Bin [31m0[m -> [32m1870839[m bytes
+ states/26-06-03-14-04-51.132/240                                                                  |   Bin [31m0[m -> [32m1963845[m bytes
+ states/26-06-03-14-04-51.132/241                                                                  |   Bin [31m0[m -> [32m1852946[m bytes
+ states/26-06-03-14-04-51.132/242                                                                  |   Bin [31m0[m -> [32m1895675[m bytes
+ states/26-06-03-14-04-51.132/243                                                                  |   Bin [31m0[m -> [32m1863700[m bytes
+ states/26-06-03-14-04-51.132/244                                                                  |   Bin [31m0[m -> [32m1839627[m bytes
+ states/26-06-03-14-04-51.132/245                                                                  |   Bin [31m0[m -> [32m1695840[m bytes
+ states/26-06-03-14-04-51.132/246                                                                  |   Bin [31m0[m -> [32m1648029[m bytes
+ states/26-06-03-14-04-51.132/247                                                                  |   Bin [31m0[m -> [32m1781087[m bytes
+ states/26-06-03-14-04-51.132/248                                                                  |   Bin [31m0[m -> [32m1591918[m bytes
+ states/26-06-03-14-04-51.132/249                                                                  |   Bin [31m0[m -> [32m1779494[m bytes
+ states/26-06-03-14-04-51.132/250                                                                  |   Bin [31m0[m -> [32m1651951[m bytes
+ states/26-06-03-14-04-51.132/251                                                                  |   Bin [31m0[m -> [32m1729046[m bytes
+ states/26-06-03-14-04-51.132/252                                                                  |   Bin [31m0[m -> [32m1726588[m bytes
+ states/26-06-03-14-04-51.132/253                                                                  |   Bin [31m0[m -> [32m1713414[m bytes
+ states/26-06-03-14-04-51.132/254                                                                  |   Bin [31m0[m -> [32m1607743[m bytes
+ states/26-06-03-14-04-51.132/255                                                                  |   Bin [31m0[m -> [32m1738085[m bytes
+ states/26-06-03-14-04-51.132/256                                                                  |   Bin [31m0[m -> [32m1796539[m bytes
+ states/26-06-03-14-04-51.132/257                                                                  |   Bin [31m0[m -> [32m1933360[m bytes
+ states/26-06-03-14-04-51.132/258                                                                  |   Bin [31m0[m -> [32m2020019[m bytes
+ states/26-06-03-14-04-51.132/259                                                                  |   Bin [31m0[m -> [32m2002400[m bytes
+ states/26-06-03-14-04-51.132/260                                                                  |   Bin [31m0[m -> [32m1830649[m bytes
+ states/26-06-03-14-04-51.132/261                                                                  |   Bin [31m0[m -> [32m1785328[m bytes
+ states/26-06-03-14-04-51.132/262                                                                  |   Bin [31m0[m -> [32m2008424[m bytes
+ states/26-06-03-14-04-51.132/263                                                                  |   Bin [31m0[m -> [32m1972953[m bytes
+ states/26-06-03-14-04-51.132/264                                                                  |   Bin [31m0[m -> [32m1781598[m bytes
+ states/26-06-03-14-04-51.132/265                                                                  |   Bin [31m0[m -> [32m2003870[m bytes
+ states/26-06-03-14-04-51.132/266                                                                  |   Bin [31m0[m -> [32m1904978[m bytes
+ states/26-06-03-14-04-51.132/267                                                                  |   Bin [31m0[m -> [32m1920674[m bytes
+ states/26-06-03-14-04-51.132/268                                                                  |   Bin [31m0[m -> [32m1867691[m bytes
+ states/26-06-03-14-04-51.132/269                                                                  |   Bin [31m0[m -> [32m1877716[m bytes
+ states/26-06-03-14-04-51.132/270                                                                  |   Bin [31m0[m -> [32m1758761[m bytes
+ states/26-06-03-14-04-51.132/271                                                                  |   Bin [31m0[m -> [32m1650778[m bytes
+ states/26-06-03-14-04-51.132/272                                                                  |   Bin [31m0[m -> [32m1762017[m bytes
+ states/26-06-03-14-04-51.132/273                                                                  |   Bin [31m0[m -> [32m1665523[m bytes
+ states/26-06-03-14-04-51.132/274                                                                  |   Bin [31m0[m -> [32m1693891[m bytes
+ states/26-06-03-14-04-51.132/275                                                                  |   Bin [31m0[m -> [32m1729166[m bytes
+ states/26-06-03-14-04-51.132/276                                                                  |   Bin [31m0[m -> [32m1694236[m bytes
+ states/26-06-03-14-04-51.132/277                                                                  |   Bin [31m0[m -> [32m1625361[m bytes
+ states/26-06-03-14-04-51.132/278                                                                  |   Bin [31m0[m -> [32m1782298[m bytes
+ states/26-06-03-14-04-51.132/279                                                                  |   Bin [31m0[m -> [32m1898765[m bytes
+ states/26-06-03-14-04-51.132/280                                                                  |   Bin [31m0[m -> [32m1991487[m bytes
+ states/26-06-03-14-04-51.132/281                                                                  |   Bin [31m0[m -> [32m1901314[m bytes
+ states/26-06-03-14-04-51.132/282                                                                  |   Bin [31m0[m -> [32m1896327[m bytes
+ states/26-06-03-14-04-51.132/283                                                                  |   Bin [31m0[m -> [32m1958888[m bytes
+ states/26-06-03-14-04-51.132/284                                                                  |   Bin [31m0[m -> [32m1839712[m bytes
+ states/26-06-03-14-04-51.132/285                                                                  |   Bin [31m0[m -> [32m1916450[m bytes
+ states/26-06-03-14-04-51.132/286                                                                  |   Bin [31m0[m -> [32m1861663[m bytes
+ states/26-06-03-14-04-51.132/287                                                                  |   Bin [31m0[m -> [32m1825236[m bytes
+ states/26-06-03-14-04-51.132/288                                                                  |   Bin [31m0[m -> [32m1710026[m bytes
+ states/26-06-03-14-04-51.132/289                                                                  |   Bin [31m0[m -> [32m1766206[m bytes
+ states/26-06-03-14-04-51.132/290                                                                  |   Bin [31m0[m -> [32m1682713[m bytes
+ states/26-06-03-14-04-51.132/291                                                                  |   Bin [31m0[m -> [32m1687783[m bytes
+ states/26-06-03-14-04-51.132/292                                                                  |   Bin [31m0[m -> [32m1608756[m bytes
+ states/26-06-03-14-04-51.132/293                                                                  |   Bin [31m0[m -> [32m1782628[m bytes
+ states/26-06-03-14-04-51.132/294                                                                  |   Bin [31m0[m -> [32m1890053[m bytes
+ states/26-06-03-14-04-51.132/295                                                                  |   Bin [31m0[m -> [32m1964655[m bytes
+ states/26-06-03-14-04-51.132/296                                                                  |   Bin [31m0[m -> [32m1871867[m bytes
+ states/26-06-03-14-04-51.132/297                                                                  |   Bin [31m0[m -> [32m1866905[m bytes
+ states/26-06-03-14-04-51.132/298                                                                  |   Bin [31m0[m -> [32m1894102[m bytes
+ states/26-06-03-14-04-51.132/299                                                                  |   Bin [31m0[m -> [32m1790966[m bytes
+ states/26-06-03-14-04-51.132/300                                                                  |   Bin [31m0[m -> [32m1752573[m bytes
+ states/26-06-03-14-04-51.132/301                                                                  |   Bin [31m0[m -> [32m1705984[m bytes
+ states/26-06-03-14-04-51.132/302                                                                  |   Bin [31m0[m -> [32m1695526[m bytes
+ states/26-06-03-14-04-51.132/303                                                                  |   Bin [31m0[m -> [32m1644372[m bytes
+ states/26-06-03-14-04-51.132/304                                                                  |   Bin [31m0[m -> [32m1927284[m bytes
+ states/26-06-03-14-04-51.132/305                                                                  |   Bin [31m0[m -> [32m1863405[m bytes
+ states/26-06-03-14-04-51.132/306                                                                  |   Bin [31m0[m -> [32m1862353[m bytes
+ states/26-06-03-14-04-51.132/307                                                                  |   Bin [31m0[m -> [32m1781351[m bytes
+ states/26-06-03-14-04-51.132/308                                                                  |   Bin [31m0[m -> [32m1732788[m bytes
+ states/26-06-03-14-04-51.132/309                                                                  |   Bin [31m0[m -> [32m1645714[m bytes
+ states/26-06-03-14-04-51.132/310                                                                  |   Bin [31m0[m -> [32m1720680[m bytes
+ states/26-06-03-14-04-51.132/311                                                                  |   Bin [31m0[m -> [32m1907505[m bytes
+ states/26-06-03-14-04-51.132/312                                                                  |   Bin [31m0[m -> [32m1775197[m bytes
+ states/26-06-03-14-04-51.132/313                                                                  |   Bin [31m0[m -> [32m1724619[m bytes
+ states/26-06-03-14-04-51.132/314                                                                  |   Bin [31m0[m -> [32m1638762[m bytes
+ states/26-06-03-14-04-51.132/315                                                                  |   Bin [31m0[m -> [32m1840710[m bytes
+ states/26-06-03-14-04-51.132/316                                                                  |   Bin [31m0[m -> [32m1707375[m bytes
+ states/26-06-03-14-04-51.132/317                                                                  |   Bin [31m0[m -> [32m1699959[m bytes
+ states/26-06-03-14-04-51.132/318                                                                  |   Bin [31m0[m -> [32m1649235[m bytes
+ states/26-06-03-14-04-51.132/319                                                                  |   Bin [31m0[m -> [32m1636619[m bytes
+ states/26-06-03-14-04-51.132/320                                                                  |   Bin [31m0[m -> [32m1592059[m bytes
+ states/26-06-03-14-04-51.132/321                                                                  |   Bin [31m0[m -> [32m1798721[m bytes
+ states/26-06-03-14-04-51.132/322                                                                  |   Bin [31m0[m -> [32m1696227[m bytes
+ states/26-06-03-14-04-51.132/323                                                                  |   Bin [31m0[m -> [32m1754600[m bytes
+ states/26-06-03-14-04-51.132/324                                                                  |   Bin [31m0[m -> [32m1763571[m bytes
+ states/26-06-03-14-04-51.132/325                                                                  |   Bin [31m0[m -> [32m1873304[m bytes
+ states/26-06-03-14-04-51.132/326                                                                  |   Bin [31m0[m -> [32m2078972[m bytes
+ states/26-06-03-14-04-51.132/327                                                                  |   Bin [31m0[m -> [32m1879030[m bytes
+ states/26-06-03-14-04-51.132/328                                                                  |   Bin [31m0[m -> [32m1992176[m bytes
+ states/26-06-03-14-04-51.132/329                                                                  |   Bin [31m0[m -> [32m1990514[m bytes
+ states/26-06-03-14-04-51.132/330                                                                  |   Bin [31m0[m -> [32m2059068[m bytes
+ states/26-06-03-14-04-51.132/331                                                                  |   Bin [31m0[m -> [32m1955234[m bytes
+ states/26-06-03-14-04-51.132/332                                                                  |   Bin [31m0[m -> [32m1698041[m bytes
+ states/26-06-03-14-04-51.132/333                                                                  |   Bin [31m0[m -> [32m1764029[m bytes
+ states/26-06-03-14-04-51.132/334                                                                  |   Bin [31m0[m -> [32m1816595[m bytes
+ states/26-06-03-14-04-51.132/335                                                                  |   Bin [31m0[m -> [32m2006008[m bytes
+ states/26-06-03-14-04-51.132/336                                                                  |   Bin [31m0[m -> [32m1970989[m bytes
+ states/26-06-03-14-04-51.132/337                                                                  |   Bin [31m0[m -> [32m1998611[m bytes
+ states/26-06-03-14-04-51.132/338                                                                  |   Bin [31m0[m -> [32m2003314[m bytes
+ states/26-06-03-14-04-51.132/339                                                                  |   Bin [31m0[m -> [32m1843208[m bytes
+ states/26-06-03-14-04-51.132/340                                                                  |   Bin [31m0[m -> [32m1764441[m bytes
+ states/26-06-03-14-04-51.132/341                                                                  |   Bin [31m0[m -> [32m1825226[m bytes
+ states/26-06-03-14-04-51.132/342                                                                  |   Bin [31m0[m -> [32m2039070[m bytes
+ states/26-06-03-14-04-51.132/343                                                                  |   Bin [31m0[m -> [32m2001137[m bytes
+ states/26-06-03-14-04-51.132/344                                                                  |   Bin [31m0[m -> [32m1917528[m bytes
+ states/26-06-03-14-04-51.132/345                                                                  |   Bin [31m0[m -> [32m1780783[m bytes
+ states/26-06-03-14-04-51.132/346                                                                  |   Bin [31m0[m -> [32m1924203[m bytes
+ states/26-06-03-14-04-51.132/347                                                                  |   Bin [31m0[m -> [32m2018707[m bytes
+ states/26-06-03-14-04-51.132/348                                                                  |   Bin [31m0[m -> [32m1856882[m bytes
+ states/26-06-03-14-04-51.132/349                                                                  |   Bin [31m0[m -> [32m1923884[m bytes
+ states/26-06-03-14-04-51.132/350                                                                  |   Bin [31m0[m -> [32m1950145[m bytes
+ states/26-06-03-14-04-51.132/351                                                                  |   Bin [31m0[m -> [32m1859712[m bytes
+ states/26-06-03-14-04-51.132/352                                                                  |   Bin [31m0[m -> [32m1882779[m bytes
+ states/26-06-03-14-04-51.132/353                                                                  |   Bin [31m0[m -> [32m1874632[m bytes
+ states/26-06-03-14-04-51.132/354                                                                  |   Bin [31m0[m -> [32m1822669[m bytes
+ states/26-06-03-14-04-51.132/355                                                                  |   Bin [31m0[m -> [32m1799438[m bytes
+ states/26-06-03-14-04-51.132/356                                                                  |   Bin [31m0[m -> [32m1954482[m bytes
+ states/26-06-03-14-04-51.132/357                                                                  |   Bin [31m0[m -> [32m1944991[m bytes
+ states/26-06-03-14-04-51.132/358                                                                  |   Bin [31m0[m -> [32m1998118[m bytes
+ states/26-06-03-14-04-51.132/359                                                                  |   Bin [31m0[m -> [32m1946767[m bytes
+ states/26-06-03-14-04-51.132/360                                                                  |   Bin [31m0[m -> [32m1997489[m bytes
+ states/26-06-03-14-04-51.132/361                                                                  |   Bin [31m0[m -> [32m1983115[m bytes
+ states/26-06-03-14-04-51.132/362                                                                  |   Bin [31m0[m -> [32m2007597[m bytes
+ states/26-06-03-14-04-51.132/363                                                                  |   Bin [31m0[m -> [32m2032099[m bytes
+ states/26-06-03-14-04-51.132/364                                                                  |   Bin [31m0[m -> [32m2250890[m bytes
+ states/26-06-03-14-04-51.132/365                                                                  |   Bin [31m0[m -> [32m2303879[m bytes
+ states/26-06-03-14-04-51.132/366                                                                  |   Bin [31m0[m -> [32m2115128[m bytes
+ states/26-06-03-14-04-51.132/367                                                                  |   Bin [31m0[m -> [32m2189594[m bytes
+ states/26-06-03-14-04-51.132/368                                                                  |   Bin [31m0[m -> [32m2260585[m bytes
+ states/26-06-03-14-04-51.132/369                                                                  |   Bin [31m0[m -> [32m2202040[m bytes
+ states/26-06-03-14-04-51.132/370                                                                  |   Bin [31m0[m -> [32m2205278[m bytes
+ states/26-06-03-14-04-51.132/371                                                                  |   Bin [31m0[m -> [32m2228006[m bytes
+ states/26-06-03-14-04-51.132/372                                                                  |   Bin [31m0[m -> [32m2198359[m bytes
+ states/26-06-03-14-04-51.132/373                                                                  |   Bin [31m0[m -> [32m1900008[m bytes
+ states/26-06-03-14-04-51.132/374                                                                  |   Bin [31m0[m -> [32m1971291[m bytes
+ states/26-06-03-14-04-51.132/375                                                                  |   Bin [31m0[m -> [32m1982310[m bytes
+ states/26-06-03-14-04-51.132/376                                                                  |   Bin [31m0[m -> [32m2009098[m bytes
+ states/26-06-03-14-04-51.132/377                                                                  |   Bin [31m0[m -> [32m1965616[m bytes
+ states/26-06-03-14-04-51.132/378                                                                  |   Bin [31m0[m -> [32m2052439[m bytes
+ states/26-06-03-14-04-51.132/379                                                                  |   Bin [31m0[m -> [32m2232456[m bytes
+ states/26-06-03-14-04-51.132/380                                                                  |   Bin [31m0[m -> [32m2245259[m bytes
+ states/26-06-03-14-04-51.132/381                                                                  |   Bin [31m0[m -> [32m2227197[m bytes
+ states/26-06-03-14-04-51.132/382                                                                  |   Bin [31m0[m -> [32m2197451[m bytes
+ states/26-06-03-14-04-51.132/383                                                                  |   Bin [31m0[m -> [32m2240425[m bytes
+ states/26-06-03-14-04-51.132/384                                                                  |   Bin [31m0[m -> [32m2156261[m bytes
+ states/26-06-03-14-04-51.132/385                                                                  |   Bin [31m0[m -> [32m1995106[m bytes
+ states/26-06-03-14-04-51.132/386                                                                  |   Bin [31m0[m -> [32m1952901[m bytes
+ states/26-06-03-14-04-51.132/387                                                                  |   Bin [31m0[m -> [32m2033683[m bytes
+ states/26-06-03-14-04-51.132/388                                                                  |   Bin [31m0[m -> [32m2031301[m bytes
+ states/26-06-03-14-04-51.132/389                                                                  |   Bin [31m0[m -> [32m2264278[m bytes
+ states/26-06-03-14-04-51.132/390                                                                  |   Bin [31m0[m -> [32m2254871[m bytes
+ states/26-06-03-14-04-51.132/391                                                                  |   Bin [31m0[m -> [32m2208288[m bytes
+ states/26-06-03-14-04-51.132/392                                                                  |   Bin [31m0[m -> [32m2077484[m bytes
+ states/26-06-03-14-04-51.132/393                                                                  |   Bin [31m0[m -> [32m2044687[m bytes
+ states/26-06-03-14-04-51.132/394                                                                  |   Bin [31m0[m -> [32m2018620[m bytes
+ states/26-06-03-14-04-51.132/395                                                                  |   Bin [31m0[m -> [32m2216765[m bytes
+ states/26-06-03-14-04-51.132/396                                                                  |   Bin [31m0[m -> [32m2223084[m bytes
+ states/26-06-03-14-04-51.132/397                                                                  |   Bin [31m0[m -> [32m2062943[m bytes
+ states/26-06-03-14-04-51.132/398                                                                  |   Bin [31m0[m -> [32m1963298[m bytes
+ states/26-06-03-14-04-51.132/399                                                                  |   Bin [31m0[m -> [32m2216054[m bytes
+ states/26-06-03-14-04-51.132/400                                                                  |   Bin [31m0[m -> [32m2106832[m bytes
+ states/26-06-03-14-04-51.132/401                                                                  |   Bin [31m0[m -> [32m2068591[m bytes
+ states/26-06-03-14-04-51.132/402                                                                  |   Bin [31m0[m -> [32m2035162[m bytes
+ states/26-06-03-14-04-51.132/403                                                                  |   Bin [31m0[m -> [32m2064138[m bytes
+ states/26-06-03-14-04-51.132/404                                                                  |   Bin [31m0[m -> [32m1952818[m bytes
+ states/26-06-03-14-04-51.132/405                                                                  |   Bin [31m0[m -> [32m1735550[m bytes
+ states/26-06-03-14-04-51.132/406                                                                  |   Bin [31m0[m -> [32m1760388[m bytes
+ states/26-06-03-14-04-51.132/407                                                                  |   Bin [31m0[m -> [32m1780015[m bytes
+ states/26-06-03-14-04-51.132/408                                                                  |   Bin [31m0[m -> [32m2071125[m bytes
+ states/26-06-03-14-04-51.132/409                                                                  |   Bin [31m0[m -> [32m1948602[m bytes
+ states/26-06-03-14-04-51.132/410                                                                  |   Bin [31m0[m -> [32m1986057[m bytes
+ states/26-06-03-14-04-51.132/411                                                                  |   Bin [31m0[m -> [32m1994223[m bytes
+ states/26-06-03-14-04-51.132/412                                                                  |   Bin [31m0[m -> [32m1828816[m bytes
+ states/26-06-03-14-04-51.132/413                                                                  |   Bin [31m0[m -> [32m1762988[m bytes
+ states/26-06-03-14-04-51.132/414                                                                  |   Bin [31m0[m -> [32m1849182[m bytes
+ states/26-06-03-14-04-51.132/415                                                                  |   Bin [31m0[m -> [32m1999995[m bytes
+ states/26-06-03-14-04-51.132/416                                                                  |   Bin [31m0[m -> [32m2000005[m bytes
+ states/26-06-03-14-04-51.132/417                                                                  |   Bin [31m0[m -> [32m1916832[m bytes
+ states/26-06-03-14-04-51.132/418                                                                  |   Bin [31m0[m -> [32m1768077[m bytes
+ states/26-06-03-14-04-51.132/419                                                                  |   Bin [31m0[m -> [32m1968745[m bytes
+ states/26-06-03-14-04-51.132/420                                                                  |   Bin [31m0[m -> [32m2006583[m bytes
+ states/26-06-03-14-04-51.132/421                                                                  |   Bin [31m0[m -> [32m1839266[m bytes
+ states/26-06-03-14-04-51.132/422                                                                  |   Bin [31m0[m -> [32m1922300[m bytes
+ states/26-06-03-14-04-51.132/423                                                                  |   Bin [31m0[m -> [32m1957605[m bytes
+ states/26-06-03-14-04-51.132/424                                                                  |   Bin [31m0[m -> [32m1883027[m bytes
+ states/26-06-03-14-04-51.132/425                                                                  |   Bin [31m0[m -> [32m1871600[m bytes
+ states/26-06-03-14-04-51.132/426                                                                  |   Bin [31m0[m -> [32m1873443[m bytes
+ states/26-06-03-14-04-51.132/427                                                                  |   Bin [31m0[m -> [32m1809377[m bytes
+ states/26-06-03-14-04-51.132/428                                                                  |   Bin [31m0[m -> [32m1888003[m bytes
+ states/26-06-03-14-04-51.132/429                                                                  |   Bin [31m0[m -> [32m2031117[m bytes
+ states/26-06-03-14-04-51.132/430                                                                  |   Bin [31m0[m -> [32m2014271[m bytes
+ states/26-06-03-14-04-51.132/431                                                                  |   Bin [31m0[m -> [32m1949269[m bytes
+ states/26-06-03-14-04-51.132/432                                                                  |   Bin [31m0[m -> [32m2040843[m bytes
+ states/26-06-03-14-04-51.132/433                                                                  |   Bin [31m0[m -> [32m1983741[m bytes
+ states/26-06-03-14-04-51.132/434                                                                  |   Bin [31m0[m -> [32m2218109[m bytes
+ states/26-06-03-14-04-51.132/435                                                                  |   Bin [31m0[m -> [32m2290271[m bytes
+ states/26-06-03-14-04-51.132/436                                                                  |   Bin [31m0[m -> [32m2167188[m bytes
+ states/26-06-03-14-04-51.132/437                                                                  |   Bin [31m0[m -> [32m2217752[m bytes
+ states/26-06-03-14-04-51.132/438                                                                  |   Bin [31m0[m -> [32m2274483[m bytes
+ states/26-06-03-14-04-51.132/439                                                                  |   Bin [31m0[m -> [32m2193964[m bytes
+ states/26-06-03-14-04-51.132/440                                                                  |   Bin [31m0[m -> [32m1957646[m bytes
+ states/26-06-03-14-04-51.132/441                                                                  |   Bin [31m0[m -> [32m1984533[m bytes
+ states/26-06-03-14-04-51.132/442                                                                  |   Bin [31m0[m -> [32m2000812[m bytes
+ states/26-06-03-14-04-51.132/443                                                                  |   Bin [31m0[m -> [32m2011174[m bytes
+ states/26-06-03-14-04-51.132/444                                                                  |   Bin [31m0[m -> [32m2306612[m bytes
+ states/26-06-03-14-04-51.132/445                                                                  |   Bin [31m0[m -> [32m2200199[m bytes
+ states/26-06-03-14-04-51.132/446                                                                  |   Bin [31m0[m -> [32m2190954[m bytes
+ states/26-06-03-14-04-51.132/447                                                                  |   Bin [31m0[m -> [32m2105473[m bytes
+ states/26-06-03-14-04-51.132/448                                                                  |   Bin [31m0[m -> [32m2017619[m bytes
+ states/26-06-03-14-04-51.132/449                                                                  |   Bin [31m0[m -> [32m1978004[m bytes
+ states/26-06-03-14-04-51.132/450                                                                  |   Bin [31m0[m -> [32m2206353[m bytes
+ states/26-06-03-14-04-51.132/451                                                                  |   Bin [31m0[m -> [32m2181611[m bytes
+ states/26-06-03-14-04-51.132/452                                                                  |   Bin [31m0[m -> [32m2116168[m bytes
+ states/26-06-03-14-04-51.132/453                                                                  |   Bin [31m0[m -> [32m2002588[m bytes
+ states/26-06-03-14-04-51.132/454                                                                  |   Bin [31m0[m -> [32m2147466[m bytes
+ states/26-06-03-14-04-51.132/455                                                                  |   Bin [31m0[m -> [32m2138275[m bytes
+ states/26-06-03-14-04-51.132/456                                                                  |   Bin [31m0[m -> [32m2034103[m bytes
+ states/26-06-03-14-04-51.132/457                                                                  |   Bin [31m0[m -> [32m2082855[m bytes
+ states/26-06-03-14-04-51.132/458                                                                  |   Bin [31m0[m -> [32m2022091[m bytes
+ states/26-06-03-14-04-51.132/459                                                                  |   Bin [31m0[m -> [32m2031253[m bytes
+ states/26-06-03-14-04-51.132/460                                                                  |   Bin [31m0[m -> [32m1713481[m bytes
+ states/26-06-03-14-04-51.132/461                                                                  |   Bin [31m0[m -> [32m1774782[m bytes
+ states/26-06-03-14-04-51.132/462                                                                  |   Bin [31m0[m -> [32m1971893[m bytes
+ states/26-06-03-14-04-51.132/463                                                                  |   Bin [31m0[m -> [32m1982679[m bytes
+ states/26-06-03-14-04-51.132/464                                                                  |   Bin [31m0[m -> [32m2007105[m bytes
+ states/26-06-03-14-04-51.132/465                                                                  |   Bin [31m0[m -> [32m1804152[m bytes
+ states/26-06-03-14-04-51.132/466                                                                  |   Bin [31m0[m -> [32m1793457[m bytes
+ states/26-06-03-14-04-51.132/467                                                                  |   Bin [31m0[m -> [32m2027287[m bytes
+ states/26-06-03-14-04-51.132/468                                                                  |   Bin [31m0[m -> [32m1960147[m bytes
+ states/26-06-03-14-04-51.132/469                                                                  |   Bin [31m0[m -> [32m1779975[m bytes
+ states/26-06-03-14-04-51.132/470                                                                  |   Bin [31m0[m -> [32m2027709[m bytes
+ states/26-06-03-14-04-51.132/471                                                                  |   Bin [31m0[m -> [32m1846473[m bytes
+ states/26-06-03-14-04-51.132/472                                                                  |   Bin [31m0[m -> [32m1943983[m bytes
+ states/26-06-03-14-04-51.132/473                                                                  |   Bin [31m0[m -> [32m1889774[m bytes
+ states/26-06-03-14-04-51.132/474                                                                  |   Bin [31m0[m -> [32m1840371[m bytes
+ states/26-06-03-14-04-51.132/475                                                                  |   Bin [31m0[m -> [32m1790227[m bytes
+ states/26-06-03-14-04-51.132/476                                                                  |   Bin [31m0[m -> [32m1978259[m bytes
+ states/26-06-03-14-04-51.132/477                                                                  |   Bin [31m0[m -> [32m1970356[m bytes
+ states/26-06-03-14-04-51.132/478                                                                  |   Bin [31m0[m -> [32m2018698[m bytes
+ states/26-06-03-14-04-51.132/479                                                                  |   Bin [31m0[m -> [32m2017176[m bytes
+ states/26-06-03-14-04-51.132/480                                                                  |   Bin [31m0[m -> [32m2282661[m bytes
+ states/26-06-03-14-04-51.132/481                                                                  |   Bin [31m0[m -> [32m2248022[m bytes
+ states/26-06-03-14-04-51.132/482                                                                  |   Bin [31m0[m -> [32m2192325[m bytes
+ states/26-06-03-14-04-51.132/483                                                                  |   Bin [31m0[m -> [32m2084931[m bytes
+ states/26-06-03-14-04-51.132/484                                                                  |   Bin [31m0[m -> [32m2017427[m bytes
+ states/26-06-03-14-04-51.132/485                                                                  |   Bin [31m0[m -> [32m1986735[m bytes
+ states/26-06-03-14-04-51.132/486                                                                  |   Bin [31m0[m -> [32m2209058[m bytes
+ states/26-06-03-14-04-51.132/487                                                                  |   Bin [31m0[m -> [32m2234827[m bytes
+ states/26-06-03-14-04-51.132/488                                                                  |   Bin [31m0[m -> [32m2091396[m bytes
+ states/26-06-03-14-04-51.132/489                                                                  |   Bin [31m0[m -> [32m1971242[m bytes
+ states/26-06-03-14-04-51.132/490                                                                  |   Bin [31m0[m -> [32m2220776[m bytes
+ states/26-06-03-14-04-51.132/491                                                                  |   Bin [31m0[m -> [32m2084696[m bytes
+ states/26-06-03-14-04-51.132/TwoPhase-0.st                                                        |   Bin [31m0[m -> [32m52502528[m bytes
+ states/26-06-03-14-04-51.132/TwoPhase.st                                                          |     0
+ states/26-06-03-14-04-51.132/TwoPhase_0.fp                                                        |     0
+ states/26-06-03-14-04-51.132/TwoPhase_1.fp                                                        |     0
+ states/26-06-03-14-55-00.068/4400                                                                 |   Bin [31m0[m -> [32m2742632[m bytes
+ states/26-06-03-14-55-00.068/4401                                                                 |   Bin [31m0[m -> [32m2986767[m bytes
+ states/26-06-03-14-55-00.068/4402                                                                 |   Bin [31m0[m -> [32m2923664[m bytes
+ states/26-06-03-14-55-00.068/4403                                                                 |   Bin [31m0[m -> [32m2949981[m bytes
+ states/26-06-03-14-55-00.068/4404                                                                 |   Bin [31m0[m -> [32m2790759[m bytes
+ states/26-06-03-14-55-00.068/4405                                                                 |   Bin [31m0[m -> [32m2721303[m bytes
+ states/26-06-03-14-55-00.068/4406                                                                 |   Bin [31m0[m -> [32m2718585[m bytes
+ states/26-06-03-14-55-00.068/4407                                                                 |   Bin [31m0[m -> [32m2733367[m bytes
+ states/26-06-03-14-55-00.068/4408                                                                 |   Bin [31m0[m -> [32m2833585[m bytes
+ states/26-06-03-14-55-00.068/4409                                                                 |   Bin [31m0[m -> [32m3063735[m bytes
+ states/26-06-03-14-55-00.068/4410                                                                 |   Bin [31m0[m -> [32m3126229[m bytes
+ states/26-06-03-14-55-00.068/4411                                                                 |   Bin [31m0[m -> [32m3054751[m bytes
+ states/26-06-03-14-55-00.068/4412                                                                 |   Bin [31m0[m -> [32m3149855[m bytes
+ states/26-06-03-14-55-00.068/4413                                                                 |   Bin [31m0[m -> [32m3139478[m bytes
+ states/26-06-03-14-55-00.068/4414                                                                 |   Bin [31m0[m -> [32m3289580[m bytes
+ states/26-06-03-14-55-00.068/4415                                                                 |   Bin [31m0[m -> [32m3249675[m bytes
+ states/26-06-03-14-55-00.068/4416                                                                 |   Bin [31m0[m -> [32m3108235[m bytes
+ states/26-06-03-14-55-00.068/4417                                                                 |   Bin [31m0[m -> [32m3068522[m bytes
+ states/26-06-03-14-55-00.068/4418                                                                 |   Bin [31m0[m -> [32m3170513[m bytes
+ states/26-06-03-14-55-00.068/4419                                                                 |   Bin [31m0[m -> [32m2994117[m bytes
+ states/26-06-03-14-55-00.068/4420                                                                 |   Bin [31m0[m -> [32m3008954[m bytes
+ states/26-06-03-14-55-00.068/4421                                                                 |   Bin [31m0[m -> [32m3168483[m bytes
+ states/26-06-03-14-55-00.068/4422                                                                 |   Bin [31m0[m -> [32m3332560[m bytes
+ states/26-06-03-14-55-00.068/4423                                                                 |   Bin [31m0[m -> [32m3175263[m bytes
+ states/26-06-03-14-55-00.068/4424                                                                 |   Bin [31m0[m -> [32m3266667[m bytes
+ states/26-06-03-14-55-00.068/4425                                                                 |   Bin [31m0[m -> [32m3391550[m bytes
+ states/26-06-03-14-55-00.068/4426                                                                 |   Bin [31m0[m -> [32m3301853[m bytes
+ states/26-06-03-14-55-00.068/4427                                                                 |   Bin [31m0[m -> [32m3232299[m bytes
+ states/26-06-03-14-55-00.068/4428                                                                 |   Bin [31m0[m -> [32m3106705[m bytes
+ states/26-06-03-14-55-00.068/4429                                                                 |   Bin [31m0[m -> [32m3133769[m bytes
+ states/26-06-03-14-55-00.068/4430                                                                 |   Bin [31m0[m -> [32m3237340[m bytes
+ states/26-06-03-14-55-00.068/4431                                                                 |   Bin [31m0[m -> [32m3026423[m bytes
+ states/26-06-03-14-55-00.068/4432                                                                 |   Bin [31m0[m -> [32m3000566[m bytes
+ states/26-06-03-14-55-00.068/4433                                                                 |   Bin [31m0[m -> [32m2975157[m bytes
+ states/26-06-03-14-55-00.068/4434                                                                 |   Bin [31m0[m -> [32m3129988[m bytes
+ states/26-06-03-14-55-00.068/4435                                                                 |   Bin [31m0[m -> [32m3074999[m bytes
+ states/26-06-03-14-55-00.068/4436                                                                 |   Bin [31m0[m -> [32m2982645[m bytes
+ states/26-06-03-14-55-00.068/4437                                                                 |   Bin [31m0[m -> [32m3021670[m bytes
+ states/26-06-03-14-55-00.068/4438                                                                 |   Bin [31m0[m -> [32m3150539[m bytes
+ states/26-06-03-14-55-00.068/4439                                                                 |   Bin [31m0[m -> [32m3233297[m bytes
+ states/26-06-03-14-55-00.068/4440                                                                 |   Bin [31m0[m -> [32m3036177[m bytes
+ states/26-06-03-14-55-00.068/4441                                                                 |   Bin [31m0[m -> [32m2958327[m bytes
+ states/26-06-03-14-55-00.068/4442                                                                 |   Bin [31m0[m -> [32m2982960[m bytes
+ states/26-06-03-14-55-00.068/4443                                                                 |   Bin [31m0[m -> [32m2902579[m bytes
+ states/26-06-03-14-55-00.068/4444                                                                 |   Bin [31m0[m -> [32m2989290[m bytes
+ states/26-06-03-14-55-00.068/4445                                                                 |   Bin [31m0[m -> [32m2799663[m bytes
+ states/26-06-03-14-55-00.068/4446                                                                 |   Bin [31m0[m -> [32m3084382[m bytes
+ states/26-06-03-14-55-00.068/4447                                                                 |   Bin [31m0[m -> [32m3121716[m bytes
+ states/26-06-03-14-55-00.068/4448                                                                 |   Bin [31m0[m -> [32m3282279[m bytes
+ states/26-06-03-14-55-00.068/4449                                                                 |   Bin [31m0[m -> [32m3275259[m bytes
+ states/26-06-03-14-55-00.068/4450                                                                 |   Bin [31m0[m -> [32m3178841[m bytes
+ states/26-06-03-14-55-00.068/4451                                                                 |   Bin [31m0[m -> [32m3314511[m bytes
+ states/26-06-03-14-55-00.068/4452                                                                 |   Bin [31m0[m -> [32m3439650[m bytes
+ states/26-06-03-14-55-00.068/4453                                                                 |   Bin [31m0[m -> [32m3254549[m bytes
+ states/26-06-03-14-55-00.068/4454                                                                 |   Bin [31m0[m -> [32m3134639[m bytes
+ states/26-06-03-14-55-00.068/4455                                                                 |   Bin [31m0[m -> [32m3149381[m bytes
+ states/26-06-03-14-55-00.068/4456                                                                 |   Bin [31m0[m -> [32m3172487[m bytes
+ states/26-06-03-14-55-00.068/4457                                                                 |   Bin [31m0[m -> [32m3131079[m bytes
+ states/26-06-03-14-55-00.068/4458                                                                 |   Bin [31m0[m -> [32m3028739[m bytes
+ states/26-06-03-14-55-00.068/4459                                                                 |   Bin [31m0[m -> [32m3148151[m bytes
+ states/26-06-03-14-55-00.068/4460                                                                 |   Bin [31m0[m -> [32m3326378[m bytes
+ states/26-06-03-14-55-00.068/4461                                                                 |   Bin [31m0[m -> [32m3413975[m bytes
+ states/26-06-03-14-55-00.068/4462                                                                 |   Bin [31m0[m -> [32m3255327[m bytes
+ states/26-06-03-14-55-00.068/4463                                                                 |   Bin [31m0[m -> [32m3220787[m bytes
+ states/26-06-03-14-55-00.068/4464                                                                 |   Bin [31m0[m -> [32m3415403[m bytes
+ states/26-06-03-14-55-00.068/4465                                                                 |   Bin [31m0[m -> [32m3399869[m bytes
+ states/26-06-03-14-55-00.068/4466                                                                 |   Bin [31m0[m -> [32m3436343[m bytes
+ states/26-06-03-14-55-00.068/4467                                                                 |   Bin [31m0[m -> [32m3298209[m bytes
+ states/26-06-03-14-55-00.068/4468                                                                 |   Bin [31m0[m -> [32m3140751[m bytes
+ states/26-06-03-14-55-00.068/4469                                                                 |   Bin [31m0[m -> [32m3230591[m bytes
+ states/26-06-03-14-55-00.068/4470                                                                 |   Bin [31m0[m -> [32m3243453[m bytes
+ states/26-06-03-14-55-00.068/4471                                                                 |   Bin [31m0[m -> [32m3140571[m bytes
+ states/26-06-03-14-55-00.068/4472                                                                 |   Bin [31m0[m -> [32m3041127[m bytes
+ states/26-06-03-14-55-00.068/4473                                                                 |   Bin [31m0[m -> [32m3094592[m bytes
+ states/26-06-03-14-55-00.068/4474                                                                 |   Bin [31m0[m -> [32m3134084[m bytes
+ states/26-06-03-14-55-00.068/4475                                                                 |   Bin [31m0[m -> [32m3236870[m bytes
+ states/26-06-03-14-55-00.068/4476                                                                 |   Bin [31m0[m -> [32m3026263[m bytes
+ states/26-06-03-14-55-00.068/4477                                                                 |   Bin [31m0[m -> [32m3006056[m bytes
+ states/26-06-03-14-55-00.068/4478                                                                 |   Bin [31m0[m -> [32m3248879[m bytes
+ states/26-06-03-14-55-00.068/4479                                                                 |   Bin [31m0[m -> [32m3184373[m bytes
+ states/26-06-03-14-55-00.068/4480                                                                 |   Bin [31m0[m -> [32m3211337[m bytes
+ states/26-06-03-14-55-00.068/4481                                                                 |   Bin [31m0[m -> [32m3053026[m bytes
+ states/26-06-03-14-55-00.068/4482                                                                 |   Bin [31m0[m -> [32m2984206[m bytes
+ states/26-06-03-14-55-00.068/4483                                                                 |   Bin [31m0[m -> [32m2980729[m bytes
+ states/26-06-03-14-55-00.068/4484                                                                 |   Bin [31m0[m -> [32m2994
